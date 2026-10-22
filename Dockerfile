@@ -1,4 +1,4 @@
-FROM library/node:slim
+FROM node:22.23.4-bookworm-slim
 
 COPY . /app
 
